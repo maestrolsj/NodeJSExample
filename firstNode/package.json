@@ -1,0 +1,17 @@
+{
+  "name": "sejinapp",
+  "version": "1.0.0",
+  "description": "bluebird",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node ./bin/populate_db"
+  },
+  "author": "sejin",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.3",
+    "mongoose-post-find": "0.0.2"
+  }
+}
