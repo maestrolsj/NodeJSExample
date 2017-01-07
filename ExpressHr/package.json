@@ -1,0 +1,22 @@
+{
+  "name": "hr-server",
+  "version": "1.0.0",
+  "description": "HR application server",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node ./bin/populate_db",
+    "start" : "node ./bin/www"
+  },
+  "author": "sejin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.3",
+    "mongoose-post-find": "0.0.2",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0"
+  }
+}
